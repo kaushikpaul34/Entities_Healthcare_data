@@ -1,5 +1,5 @@
-# Entities_Healthcare_data
-> to build a custom NER to get the list of diseases and their treatment.
+# Identifying Entities in Healthcare Data
+> To build a custom NER to get the list of diseases and their treatment.
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -14,8 +14,10 @@
 - To develop an algorithm to extract and map diseases with their corresponding treatments from a medical dataset, presenting the information in a simplified table or dictionary format for non-medical individuals, as illustrated by identifying "cancer" and its likely treatment "chemotherapy" from a sample sentence.
 
 ## Conclusions
+- We have used "sklearn_crfsuite" to train the model.
 - The F1 score is calculated as the harmonic mean of precision and recall.
 - We have calculated the f1 score using the actual labels and the predicted labels of the test dataset is 0.91.
+- Created a dictionary and a function for identifying Diseases and Treatments using Custom NER.
 
 ## Technologies Used
 - Python 3.8
